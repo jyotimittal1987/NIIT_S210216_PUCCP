@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+char str[]={"cricket"};
+char str1[]={"badminton"};
+void main()
+{
+clrcsr();
+char *p;
+printf("we r playing %s",str);//we r playing cricket
+p=str;
+printf("we r playing %s",p);//we r playing cricket
+p=str1;
+printf("we r playing %s",p);//we r playing badminton
+
+char *movie="jurassic park";
+printf("we r watching %s",movie);//we r watching jurassic park
+
+getch();
+
+
+}
