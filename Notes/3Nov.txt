@@ -1,0 +1,12 @@
+Recap :
+Loops : for, while, do while Loop
+
+Q1) Difference in for and while loop?
+for: If the no of iterations are known, in that case, we use the for loop
+while : Till teh condition is true,in that case, we use the while loop
+
+Q2) difference in while and do while loop?
+while : till the conditiuon is true , it executes the loop, but it will enter into the loop onl, if initial co dition is true
+do while : It will execute our code atleast once ,irrespective of the condition.
+
+
