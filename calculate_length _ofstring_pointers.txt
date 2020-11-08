@@ -1,0 +1,22 @@
+//program to calculate length of a string
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+clrcsr();
+char *p,str[20];
+int size=0;
+printf("enter string");
+gets(str);
+fflush(stdin);
+for(p=str;*p!='\0';p++)
+{
+size++;
+}
+printf("the size is %d",size);
+
+getch();
+
+
+}
