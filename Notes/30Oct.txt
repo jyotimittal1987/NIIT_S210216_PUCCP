@@ -1,0 +1,104 @@
+Conditional Construct/Decision Making construct : To evaluate the condition.
+
+Condition : Calculator : +, -, *, / 
+
+a=50
+We need to check whether a>100?
+Eg : num=100 : even or odd 
+
+When you have multiple options, and you need to choose 1 option , in that case also, we will use the conditinal construct.
+ATM : It checks pin no is correct or not 
+
+Online Payment : 
+--Credit card
+--Debit Card
+--UPI 
+--Net banking
+
+
+=============================================================================
+
+Login : User name and PWd : Decision making
+===============================================================================
+How to implement Decision Making constructs:
+
+1. Simple If
+if (condition)
+{
+//code --if block
+}
+
+2. If else
+if(condition)
+{
+}
+else
+{
+}
+
+3. Cascading/ladder if else: We need to evaluate more than 1 condition, in such cases we will use the cascading/ladder if else
+
+if(condition)
+{
+//code 
+}
+else if(condition)
+{
+//code
+}
+else if(condition)
+{
+//code
+}
+else
+{
+}
+
+Eg : WAP to check whether entered no is +ve, -ve, 0
+
+4. Nested if else : if else under if /else
+if (condition) //outer condition
+{
+  if(condition)
+	{}
+  else 
+	{}
+}
+else
+{
+}
+
+ATM : If pin number is correct, only then it will show you the option for cash withdrawl,e-statement etc.
+
+5  Switch Case: Whenever we want to create a menu driven program : 
+1. Cash Withdrawl 2. E- statement 3. Change pin 4. check balance
+
+
+switch(varaible)
+{
+case 1: //code 
+case 2://code
+case 3: //code
+default : //code 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

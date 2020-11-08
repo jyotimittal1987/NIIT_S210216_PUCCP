@@ -1,0 +1,79 @@
+Pointers : It refers to the address of a particular variable .
+
+int a=10;
+int *p;
+//we want to store the address of a into p
+p=&a;//& will retrive the address of a
+printf("%d",p);//adress of a
+printf("%d",*p);//display the value of a
+
+==============================================================
+
+Functions : Set of instructions which is used to perform a specific task .For the reusuability of code, we are working on function. 
+- Write once, invoke it n no of times depending upon requirement.
+
+Syntax: <return type><function name>(<parameters>)
+{
+//code goes here
+}
+Return type: type of value function will return to the calling code
+void - Is a return type which specifies that function will not return anything to the calling code
+
+
+Function can be divided into 3 parts:
+1)function declaration:
+     Eg :void add();
+2)function definition/body:
+         void add()
+	  {
+          int a,b,c;
+          printf("Enter two no");
+          scanf("%d%d",&a,&b);
+          c=a+b;
+          printf("%d",c);
+	  }
+Note : Function declaration and definition is done only once, but calling can be done n no of times depends upon the requirement.
+3)function calling:
+          add();
+          add();
+	
+
+
+
+main()
+{
+int a,b,c;
+printf("Enter two no");
+scanf("%d%d",&a,&b);
+c=a+b;
+printf("%d",c);
+printf("Enter two no");
+scanf("%d%d",&a,&b);
+c=a+b;
+printf("%d",c);
+printf("Enter two no");
+scanf("%d%d",&a,&b);
+c=a+b;
+printf("%d",c);
+printf("Enter two no");
+scanf("%d%d",&a,&b);
+c=a+b;
+printf("%d",c);
+printf("Enter two no");
+scanf("%d%d",&a,&b);
+c=a+b;
+printf("%d",c);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,178 @@
+Recap : 
+getc(stdin): To scan a character 
+putc(stdin): to display the charcter
+getchar(): To scan a character
+putchar(): To display a character
+gets() :To scan a string
+puts() :To display the string
+
+string : collection of character
+
+Garv : 'G','a','r','v'
+
+=================================================================================
+
+int num;
+float salary;
+================================================================================
+
+Operators :
+1) Binary /Arithmetic operator :+,-,*,/,%
+
+/-Quotient
+
+% -Remainder
+
+2) Relational/Comparison Operator :>,>=,<,<=,==,!=
+3) Assignment Operator : =
+
+Difference in = and ==:
+
+4) Logical Operator : AND, OR,NOT
+
+AND : &&
+OR : ||
+NOT : !
+
+=====================================================================================
+5)Unary OPerator : Works on one operand.  
+++   Increment the given variable value by 1
+--   Decrement the given variable value by 1
+
+Binary : a+b 
+
+
+a=5
+++a : PreIncrement  : a=6
+a++ : PostIncrement : a=6
+
+Assume that a=5,
+
+
+Case 1) b=++a,  b=?,a=?
+
+b=6, a=6
+
+Case 2) b=a++  , b=?, a=?
+b=5, a=6
+
+
+Example :  
+
+a=2;
+
+b=a++ + ++a;
+
+b=?, a=?
+
+
+b=2+4 =6
+a=4
+
+======================================================
+ASCII values : American standard code for Information Interchange . It has predefined set of values
+
+A-Z :65 to 90, B=66, C=67, D=68....
+a-z : 97 to 122
+0 -9 : 48 to 57
+===========================================================
+typecasting: Conversion of one type into another.
+int, char, float, double
+
+2 types of typecasting: 
+
+1)Implicit Typecasting
+2) Explicit typecasting
+
+1) Implicit typecasting : 
+int a;
+char ch;
+
+a=ch;// ch ='A', a=65..Implicit typecasting
+
+2) Explicit Typecasting:
+int a;
+char ch;
+ch=(char)a;//Explicit Typecasting
+
+ch=(char)a;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

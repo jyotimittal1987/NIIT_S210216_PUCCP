@@ -1,0 +1,264 @@
+We want to develop the software
+
+S/w: Set of instructions which is used to perform a specific task.
+
+Calculator : TO perform some calculations
+
+Paytm : transfer money,pay bills
+WhatsApp: Messages
+Zomato : Online Food order
+Ola : book cab
+
+Customer demands s/w , to make his life easy, 
+
+s/w:
+Operating System-windows, MAC, Android, ios,Linux
+Browser, VLC, MS office
+Mobile bases Apps
+Web Apps
+
+==============================
+How to develop s/w:
+To develop the s/w, we want to give the instruction to machine,
+
+How to give instruction to machine:we need a programming language 
+
+Programming Languages :
+
+C, c++, Java, Python, COBOL,c#,VB,J#
+
+
+C Programming Language : It is used to develop the software. 
+
+- We will give the instruction to machine using C Programming language..
+-We will learn c Vocublary, rules and regulations of the C Programming Language:
+
+=============================================
+Generation of Progarmming Language :
+
+1)First Generation Language (Machine Language): 
+---Machine Language : That is understood by the machine and it is in the binary form ( 0's and 1's)
+
+ADD: 1010101
+     0101010
+All commands used to give 1 and 0 only.
+
+Advantage:
+1)You dont need to translate and directly it will execute by computer.
+2) Programs were very speedy and efficient
+
+Disadvantage : 
+1)Writing code in 0 and 1 is very complex
+
+
+2) Second Generation Language(Assembly Language) : We were using Mneumonics:
+
+A  :ADD
+Mp: Multiply
+CMP : Compare
+
+Advantange : 
+1)Less prone to errors 
+2)Easy to write than 1 GL
+3)Easy to remove Errors
+
+3)Third Generation Language(High level Language) : 
+--All the instructions are given in the english written form 
+--Programmer has to focus only on the logic to perform the task
+--- C, C++, Java
+--to develop the code using 3GL is very easy 
+--Less prone to Errors and easy to maintain
+
+Program : set of instruction 
+
+4)Fourth Generation Language(Very High level Language):
+--Implementing Database
+--Productivity increases as programmer has to write fewer lines of code
+--Easy to code, maintain, cost effective
+--PHP, SQL, Ruby,Python
+
+5) Fifth Generation Language : ARtificial Intelligence (AI)
+
+=========================================================================================
+1) Interpreter
+2) Compilor 
+
+High level Language : We are giving the instruction using English written form but machine understands machine language(1 and 0),
+
+
+Interpreter :
+--Translate program one statement at a time.
+--Execution time is slower than Compilor
+--Memory Efficient - No intermediate object is created 
+--Javascript, Python
+
+Compilor : 
+--Translate /Scan the entire program and convert it into machine code
+--Fast 
+--C, C++, Java
+--It requires more memory as Intermediate object may et created
+========================================================================
+
+C Programming Language :
+
+--Denis Ritchie Developed the C Progarmming Language in 1972,
+--It is a High level Programming Language
+--It was compilor based
+-- To write  the UNIX Operating system, C was invented.
+--C is a case sensitive langauge
+======================First C Program===========================
+//WAP to display Hello World
+#include<stdio.h>
+main()//main is the entry point of application
+{
+//printf() is used to display the message on the screen
+printf("Hello World");
+}
+
+
+
+
+Compile/Build: Compilor will convert source code into machine code ,also check for any syntax Error,but it will not show thw output(o/p). 
+Execute/Run :It will show you the output.
+
+
+C Program:
+
+1) PreProcessor Directive: # is known as PreProcessor directives
+	include is a keyword
+2)stdio: standard input and output : 
+	printf() : To display any msg on the screen
+	.h : header files
+3)main() : Predefined function in C Programming which is actually entry point of an application.
+
+main()
+{
+//code
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

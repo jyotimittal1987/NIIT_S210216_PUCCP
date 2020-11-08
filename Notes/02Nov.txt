@@ -1,0 +1,163 @@
+ASCII code : 
+A - 65     a-97   32
+B - 66     b-98   32
+C-  67     c-99   32
+
+char ch;
+if(ch>=65 && ch<=90)
+{
+ch=ch+32;
+}
+=======================================================
+/* Swap without 3 variables  */
+
+num1=10
+num2=20
+
+num1+num2-num1
+
+========================================================
+Determinant = b2-4ac
+
+Accept the value of a,b,c from user
+
+if (determinant >0)
+{
+
+}
+else if(determinant <0)
+{
+}
+else 
+{
+
+}
+
+==========================================================
+
+/* Switch Case */
+
+printf("1. Add 2. Sub 3. Mul 4. div")
+switch(choice)
+{
+case 1:a+b;break;
+case 2: a-b;break;
+
+
+
+}
+
+==============================================================================
+Loops: If we need to iterate any statement again and again, in such cases we will use the loops.
+
+ Eg : WAP to display your name 100 times.
+
+printf("Garv");
+printf("Garv");
+printf("Garv");
+printf("Garv");
+printf("Garv");
+printf("Garv");
+printf("Garv");
+printf("Garv");
+printf("Garv");
+printf("Garv");
+printf("Garv");
+printf("Garv");
+printf("Garv");
+
+3 types of Loops :
+1) for loop
+2) while loop
+3) do while loop
+
+====================================================================================
+1) for loop :If we are aware with the no of iteration, we will use the for loop.
+
+//WAP to display your name 10 times.
+
+syntax: for (1;2;3)
+        for(Intilialization; condition/termination; increment /decrement)
+        {
+           //code goes here 
+        }
+eg : for(int counter=0;counter<10;counter++)
+	{
+	printf("Garv");
+	}
+
+Dry run : checking logic 
+Intilalization happens once.
+  
+1) counter=0; 0<10; counter=1       Garv
+2) counter=1; 1<10; counetr=2       Garv
+3) counter=2; 2<10; counter=3       Garv
+.
+..
+.
+.
+.counter=9; 9<10;  counter=10                 Garv
+
+counter=10; 10<10;
+
+===================================================================
+2) while loop : It executes the code till the condition is true.
+
+Syntax : 
+
+Intilization ;
+while(condition)
+{
+//code goes here
+inc/dec;
+
+}
+
+
+========================================================================
+3) do while Loop :
+In for and while loop, we can enter into the loop only if our initial condition is true, but in the do while loop atleast once it will exceute the loop irrespective of the condition,But for second iteration, it checks for condition, if condition is true only then it enters the loop otherwise not.
+
+syntax :
+
+Initialization;
+do
+{
+//code 
+inc/dec;
+} while(condition);
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

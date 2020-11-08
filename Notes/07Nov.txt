@@ -1,0 +1,89 @@
+Functions : set of instructions which is used to perform a specific task.
+- Functions are meant for reusuability. It means write once, and invoke it n no of times.
+
+calc() :
+
+  add(): + : to perform addition
+  sub() : To perform subtraction
+	
+
+printf("Niit");
+
+Functions are of 2 categories :
+1) Pre defined / Built In function  : 
+-- main(): Entry point 
+--printf(): To display some value 
+--scanf()
+--fflush()
+--getc()
+--getch()
+--putc()
+
+2) User Defined function :
+
+--To create a function :
+	-- Function Declaration
+	--Function definition
+	--Function Calling
+
+==================================================================
+Function Declaration: <return type ><function name>(<parameters>)
+Return type : The type of value you want to return from a function to the calling code
+   void :Fucntion will not return anything to the calling code
+   int : Function will return int type value to calling code
+Eg : 
+   void inc();
+===================================================================
+
+Function definition/Body:
+                        void inc()
+			{
+                          //code goes here
+			}
+
+=============================================================
+Function Calling: Invoking the function and you can invoke it n no of times
+
+Eg: inc();
+    inc();
+==================================================================
+1)Function with no return type and no parameters:
+	void inc();
+2)Function with return type and no parameters:
+        int inc();
+3)Function with no return type and with parameters:
+         void inc(int a);// a is parameter of int type
+4)Function with return type and with parameters:
+         int inc(int a);
+
+==============================================================
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

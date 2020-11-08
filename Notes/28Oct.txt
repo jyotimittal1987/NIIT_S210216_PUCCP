@@ -1,0 +1,68 @@
+Relational Operator/Comparison Operator : >,< ,>=,<=, ==, !=
+
+What : To perform comparioson between multiple values
+Why
+How
+
+
+int a=20;
+int b=10;
+
+a>b : True
+
+a>20 : False ( it will not include 20)
+
+a>=20: True(bcz it will include 20 also)
+
+== : To check whether 2 values are equal or not.
+
+a=10
+b=20
+
+a==b : False
+
+x=10, y=10, x==y : True
+
+= Assignment operator :
+
+a=10
+
+b=20
+------------------------------------------------------------------
+x=30
+y=40
+
+x=y
+
+x=?, y=?
+
+
+x=40, y=40
+
+
+---------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

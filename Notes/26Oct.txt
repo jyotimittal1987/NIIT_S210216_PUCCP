@@ -1,0 +1,206 @@
+Recap : 
+===========================
+Q1) Who develop the C Programming Language ?
+Ans : Dennis Ritchie in 1972
+
+Q2)What is compilor?
+Ans : It scan the entire source code  and convert into machine code.
+
+Q3)How many generation of Languages we have seen?
+Ans : 
+1GL ->Machine Language( 0 and 1)
+2GL ->Assembly Language( Mnenumonics)
+3Gl ->High level Language(C, C++, Java)
+4GL ->Very High level Language( SQL, Python)
+5GL -> artificial Language-Mercury
+
+============================================
+Variables and Data types :
+
+x=10
+y=20
+z=x+y
+
+==========================================
+Variables : It is a location in memory which store some value.
+2 numbers
+
+x=10
+y=20
+
+Eg: 
+1)age =25
+2)firstname= "Aruna"
+
+Rules :
+
+1) A variable name should start with a letter or an underscore. It should not start with digit.
+
+age 
+age1
+1age-->Invalid variable name
+_age 
+
+2)It should not contain space .
+Eg : 
+firstname
+firstName  -> For better readability
+first_Name
+first Name  -> Invalid variable name	
+
+3)Variable name should not be keyword/reserved words 
+Eg : printf(), if, for, while 
+
+4) It should not contain any special characters.
+ Eg: add$ress
+$,# ,&,*
+
+=================================================================================
+Data Types :The type of value that we store in a variable.
+-We need to restrict the type of value in a variable
+Syntax : <data type><Variable name> =<Value>;
+
+numeric, alphabets
+age = 45, 89, 
+age='a'
+
+1)int : integer -> -4, 78, 0 :  4 bytes--%d
+Eg: int age=20;
+2)char : character / letter /alphabet/non alphabet  : 1 byte--%c
+Eg : char ch='a';
+     char ch1='1';
+     char ch2='*';
+     char gender='m';
+3)float : Store decimal values   : 4 byte--%f
+Eg : float salary =20000.0000;
+4)double:Store decimal values    : 8 byte
+Eg:  double salary=670000.000000;
+
+=============================================================
+#include<stdio.h>
+main()
+{
+int num=10;//4 bytes
+//%d is format specifier
+char ch='a';
+printf("The value is : %d \n",num);
+printf("The range is : %d \n" , sizeof(num));
+printf("The range of character %c is %d",ch, sizeof(ch));
+
+
+
+}
+=================================================
+#include<stdio.h>
+main()
+{
+    //To scan the value from user, we use scanf
+/* char ch;
+printf("Enter a character: ");
+scanf("%c",&ch);
+printf("\nCharacter is :%c",ch);*/
+
+/*int num;
+printf("Enter a number : ");
+scanf("%d",&num);
+printf("\nResult is: %d",num);*/
+
+float f1;
+printf("Enter any decimal value");
+scanf("%f",&f1);
+printf("Entered decimal value is :%f" ,f1);
+
+
+
+}
+
+========================================
+
+
+//WAP to add two numbers
+#include<stdio.h>
+main()
+{
+int num1,num2,sum,product,difference,division,remainder;
+printf("Enter first number");
+scanf("%d",&num1);
+printf("\nEnter second number");
+scanf("%d",&num2);
+sum=num1+num2;
+product=num1*num2;
+difference=num1-num2;
+division=num1/num2;//display quotient, 11/2--5
+remainder=num1%num2; //modulos operator which contains remainder
+printf("Sum is : %d \n",sum);
+printf("Product is : %d\n",product);
+printf("Difference is :%d\n",difference);
+printf("Division is : %d\n",division);
+printf("Reminder is : %d",remainder);
+
+}
+
+=====================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
