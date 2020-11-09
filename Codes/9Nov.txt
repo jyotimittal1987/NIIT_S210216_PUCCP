@@ -1,0 +1,56 @@
+Command Line Arguments :
+
+
+void sum(int a, int b)//parameters
+
+
+sum(10,20);//Argument
+
+We were executing everything using code block : IDE. 
+
+
+=====================================
+Commandline augument : controls the execution of code through OS i.e from cmd  
+
+//commandlineEx.c
+main(int argc, char* argv[])
+{
+//code goes here
+}
+
+argc : No of argument passsing from command line
+argv: Containing the values passing from command line
+
+
+Execute : commandlineEx 10 20  : total no of arguments will be 3 as it will count file name also.
+
+argv[0]=commandline
+argv[1]=10
+argv[2]=20
+
+=============================================================
+
+Task1 : WAP to reverse a string without using predefined function
+Task2: WAP to concatenate the 2 strings without using predefined function.
+
+=====================================================================================
+
+#include<string.h>
+
+=====================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
