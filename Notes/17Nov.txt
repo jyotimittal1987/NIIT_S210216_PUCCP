@@ -1,0 +1,101 @@
+C++ : C with classes
+
+C : 
+
+c++ : It will have all the features of C along with the oops concepts.
+In C++, we can do programming with oops concepts and without oops concepts also. It is a semi oops based language.
+
+Bjarne stroustrap invented the c++ Language , in the year 1980's.
+
+===================================================================================
+
+OOPs :
+-Object Oriented Programing Language
+-It is a Programming methodology to develop the software.
+-Features :
+ 	Class
+	Objects
+	Encapsulation
+	Abstraction
+	Inheritance
+	Polymorphism
+
+==================================================================================
+1)Objects : Any thing that exists in the real world is known as object.Eg : chair, pen, cAR, Employee,Student
+- Object is termed as real world entity.
+- To recognize whether that particular thing is object or not-
+	State     : Properties ..Attributes ...
+	Behaviour : Working / functionality
+	Identity  : Unique Identity of object..
+
+CAR : 	
+	State : Color, Engine, Brand, Mileage
+	Behaviour : Moving
+	Identity :  Number plate of the car
+
+
+Student is an object ?
+State :    Student Id, name, course,marks
+Behaviour:  Studying
+Identity :  Student Id, Reg no
+
+-Two objects can have same state and behaviour but their idenetities are different.
+- Object is an instance of a class.
+
+========================================================
+Class: collection of objects of similar types :
+
+==========================================================
+ostream : It is a predefined class for which cout is an instance(object).
+cout : To display user defined message or variable value
+istream : It is a predefined class for which cin is an instance(object). 
+cin: cin is used to scan the value from user
+endl: It is a commnad which brings the cursor in next line.
+
+==================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
