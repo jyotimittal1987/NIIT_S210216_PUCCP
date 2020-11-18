@@ -1,0 +1,35 @@
+OOPs : It is a methodology to develop a s/w
+Class :Group of objects of similar type
+Objects:Real world entity 
+	Instance of class
+	state, behaviour and Identity 
+
+=====================================================
+Variables : It is a unique location in memory which stores some value
+
+num=10
+
+data types : The type of value we are going to store in a variable 
+	Eg : int , char, float, double 
+
+int ( 4 byte) -> 0, -88, 222
+float(4 byte) -> 8.9, 4.6 
+double(8 bytes) -> 4.66666
+char -> 'a', '6', '%', 'p'
+
+
+Decision making construct: To evaluate the condition, we use decision making construct.
+
+1)Simple If
+2)If else
+3) Nested if else
+4) Cascading/ladder if else
+5) Switch case
+
+
+
+
+
+
+
+
