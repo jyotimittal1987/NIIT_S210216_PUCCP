@@ -1,0 +1,12 @@
+1) Assignments-1,2,3,4,5--Already uploaded on GitHub-Oops concepts
+2) Submit Practise exercise from Training.coom of c++-  
+3) Data Types,Decision Making,
+Arrays , Loops,Encapsulation,abstraction
+static function, 
+
+Task1 : Write one code to implement Encapsulation, Abstraction
+Task2: Write a code to implement static variable and static function.
+
+
+
+

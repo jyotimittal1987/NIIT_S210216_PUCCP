@@ -1,0 +1,76 @@
+Loops :  To repeat certain set of instruction again and again till the condition is true.
+
+3 types : 
+1) for loop: When no of iterations are known, we can use for loop
+	for(Initialization ;condition/termination ; inc/dec)
+	{
+	}
+	for(int counter=0; counter<10; counter++)
+	{
+	//body of loop
+	}
+
+2) while loop: when the no of iterations are not known , in that case, we will using the while loop
+	intialization
+	while(condition)
+	{
+	// inc/ dec;
+	}
+
+3) do while loop: Atleast once loop gets executed irrepective of the condition whether true/false.
+       do
+	{
+	//body of the loop
+	inc/dec;
+	}while(condition);
+
+
+Difference in while and do while :But in case of while, we enter into the loop only if initial condition is true.
+==========================================
+Scope of varaible :
+
+1) local Scope : If declaring any varaiable within method/ within loop / within if , you are declaring the variable within the scope, so it is accessible to that particular scope only. You wont be able to acess it outside the scope, these are known as local variables.
+
+2)Class scope : If declaring any variable within class, it wil be accessible to every function defined in class.
+
+3)Global : If declaring variable globally, it will be accesible to every class in an application.
+==================================================
+Arrays :
+- It is a collection of multiple elements of same data type/ homogeneous data type.
+- Instead of declaring the multiple variables of the same data type, we can declare a single varaible which will hold the multiple values:
+
+int arr[10]; 
+
+size of an array : 10, n=10
+
+Indexing will start from 0 to n-1 ( 0 to 9)
+
+========================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

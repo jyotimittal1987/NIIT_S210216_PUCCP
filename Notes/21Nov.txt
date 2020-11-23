@@ -1,0 +1,23 @@
+Encapsulaton and abstraction:
+
+Encapsulation :
+- Feature of oops
+-We are hiding the non essentials details from user 
+-Information hiding : Hiding irrelavant information from user
+- To be enclosed in a capsule
+
+
+------------------------------------------------------
+Abstraction :
+- It shows the relevant information to user.
+
+=======================================================
+
+Encapsulation and Abstraction can be achieved by Access Specifiers:
+
+1)private : It is by default . You wont be able to access private member outside the class
+2)public : You will be able to acess all members outside the class
+3)protected : Only sub class in case of Inheritance will be able to access it.
+
+
+
