@@ -1,0 +1,137 @@
+Enums :
+- user defined data type
+- To provide the integral constants to some data . 
+- Basically, we use the enums in switch case.
+- By default, it starts with 0, will take +1 for the next enum value.
+
+Eg : sun ,mon, tues...
+Jan, feb..
+male,female
+spring, summer....
+=========================================================
+Constructor : 
+-Constructors are special type of methods.
+- Class name and method name are same , that is known as constructor.
+- Constructors are used to initialize the member variable of class but methods are used to manipulate the value of those variables.
+-Constructors do not have return type but method will always have return type.
+- Constructors gets invoked as soon as you instantaite the class but methods gets invoke explicitly through class objects.
+-Constructors are responsible to allocate the memory to class.
+
+
+Note : return type:the type of value that will be returned from the function is known as return type
+
+class Calc
+{
+int num; //class scope 
+public : Calc() //constructor
+{
+num=0;
+cout<<"Welcome";
+}
+void sum() //method or member function
+{
+++num;
+}
+}
+
+int main()
+{
+Calc c1;//instantiate the class, it invokes the constructors
+}
+====================================================================
+Constructors are of various types :
+1) Default constructor
+          Calc(){}
+2) Parameterized constructor
+         Calc(int a){}
+
+==============================================================
+
+Constructor Overloading:
+We are using the same constructor again and again but compilor does not allowed it as you cant declare the same constructor twice.
+Calc()
+{
+}
+Calc()
+{}
+
+but we have the requirement to declare the constructor more than 1 time, ion this case we can overload the constructor.
+
+Overload :Using the same constructor name but we can differentiate it with their signature.
+
+Signature :
+- No of parameter
+       Calc(){}   ----0 parameter
+       Calc(int a){}-----1 parameter
+       Calc(int a, int b){}	----2 paarmeter
+
+Calc c1;
+Calc c2(10);
+calc c3(10,20);
+
+- Types of parameter
+        Calc(int a){}  --
+        Calc(float a){}--
+        Calc(char a){}--
+
+Calc c1(10);
+Calc c2(2.3);
+Calc c3('3');
+        
+- Sequence of parameter
+      Calc(int a, char b){}  --2 
+      Calc(char a, int b){}  --2 
+
+Calc c1(10,'a');	
+Calc c2('5',34);
+=================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
