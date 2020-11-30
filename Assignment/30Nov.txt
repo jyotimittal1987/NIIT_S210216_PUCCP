@@ -1,0 +1,18 @@
+1) OOPs concepts:
+-Encapsulation
+-Abstraction
+-Static Function/Static variable
+-Friend class/function
+-Contructor/Destructor
+-Constructor overloading
+-Function overloading
+-operator overloading
+-command line parameters
+-Call by value
+-Call by reference
+-String function
+-Maths function 
+-Enums
+
+
+
