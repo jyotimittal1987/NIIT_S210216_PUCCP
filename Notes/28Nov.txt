@@ -1,0 +1,33 @@
+Polymorphism:One interface , many forms
+Static Polymorphism:  If the object is linked to the function at compile time, is known as static polymorphism.Also known as Early binding/Compile Time Polymorphism
+ Eg :obj.sum();//Binding at compile time
+
+To implement static polymorphism:
+-Function overloading
+-Operator overloading
+
+Dynamic Polymorphism: If the object is linked to the function at run time, is known as dynamic Polymorphism.Also known as Late Binding/Run time Polymprphism.
+Eg : obj->sum(); //Binding at run time.
+
+- Abstract class 
+
+============================================================
+function overloading :Using the same function name but we are overloading it with different signatures.
+
+Signature :
+	-No of parameters
+		void sum()-- 0 parameter
+		void sum(int a)--1 parameter
+		void sum(int a, int b)--2 parameter
+	-Sequence of parameter
+                void sum(int a, long b){}
+		void sum(long a , int b){}
+	-Types of parameter
+                void sum(int)
+		void sum(char)
+==============================================================
+
+
+
+
+

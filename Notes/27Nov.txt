@@ -1,0 +1,76 @@
+Functions/Methods:
+
+class Calc
+{
+void sum()  //user defined function
+{}
+void sub()
+{}
+...
+
+}
+
+C++ : It also installed some predefined functions in predefined library. We can directly use those pre defined function to solve any business logic.
+
+char name[50];
+cin>>name;
+
+Want to retrieve the total no of characters in string(collection of charcters) name.
+
+We have predefined fucntion like strlen : To retrieve the length of string
+strcmp : To compare two strings
+strcpy : To copy the string 
+
+==========================================================================
+
+Polymorphism:
+
+Oops features :
+
+1) Objects
+2)class
+3)Encapsulation
+4)Abstraction
+5)Polymorphism
+6) Inheritance
+
+====================================================================
+Polymorphism : Poly -Many, morphism -forms
+- 1 interface is responsible of doing mulitple tasks
+
+
+Coffee vending - Coffee, Tea, Soup..
+
+It is of 2 types :
+1)Static polymorphism:Binding /linking between object and function happens at compile time. Also known as Early binding/ Compile time Polymorphism.
+
+obj.sum(); //at the compilation only, compilor knows it has to invoke sum function.
+
+=============================================================
+2)dynamic Polymorphism:Binding /linking between object and function happens at run time. Also known as Late binding/ Run time Polymorphism.
+
+obj->sum();
+
+==================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
