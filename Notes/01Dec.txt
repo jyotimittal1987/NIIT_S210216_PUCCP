@@ -1,0 +1,47 @@
+Inheritance : 
+- The process of deriving the properites of a one class into another .
+- Reusability- Once the properties have been defined in parent class, we can use them as it is in child class.
+
+class Vehicle  //parent class..base class ...super class
+{
+float price;
+int no_of_wheels;
+char color[10];
+char brand[20];
+}
+class Motor_bike : public Vehicle  //child class..derived class..sub class
+{ 
+int engine;
+
+}
+class Cars : public Vehicle
+{
+char gearType[20];
+}
+
+Types : 
+1) Single level Inheritance
+2)Multilevel Inheritance
+3)Multiple Inheritance
+4)Hierarchical Inheritance
+5)Hybrid Inheritance- Diamond problem 
+===========================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

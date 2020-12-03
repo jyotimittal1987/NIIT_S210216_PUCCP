@@ -1,0 +1,71 @@
+Ambiguity in Multiple Inheritance:
+
+1. If both parents have the same method name and we are trying to invoke it through child class object, then the compilor is ambiguous, which method to call whether Parent A method or Parent B method as the method name is same in both parents.This is known as ambiguity in multiple inheritance.
+
+Resolve the ambiguity:
+1) Either declare the same method name in child class.
+2) You can access the method by using the scope resolution operator.
+
+Polymorphism: One interface, many forms
+
+2 types of polymorphism:
+
+1)Static polymorphism : Binding between objects and function happens at compile time.
+- function overloading: same method name but with different signatures
+2)Dynamic Polyorphism : Binding between objects and function happens at run time. 
+- 
+
+obj.display();
+
+
+Overrriding : If the same method name is there in parent and we are using the same method name in child with different functionality, it is known as overriding.
+
+class A
+{
+public :void display()
+{
+//logic ..
+cout<<"A";
+}
+void emojis()
+{
+
+}
+}
+class B: public A
+{
+void display()
+{
+..some different logic 
+cout<<"B";
+}
+void emojis()
+{
+//they are adding some new emojis
+
+}
+
+}
+
+=====================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
