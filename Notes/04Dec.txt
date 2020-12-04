@@ -1,0 +1,60 @@
+Virtual Function :
+
+- We will declare a member function virtual in base class  so that we can redefine it in derived class.
+- Redefine : Overriding : Same function name will be there in parent and we are using the same function name in child as well. 
+class Parent  
+{
+public: virtual void display()
+{
+//code goes here
+}
+}
+class Child: public Parent
+{
+public : void display()  //overriding
+{
+//code but with different functionality.
+}
+}
+-Virtual function helps in dynamic Polymorphism.
+- We will use a single pointer to refer to all the objects of different classes.
+=============================================
+class old_whatsapp
+{
+public : void videocall()
+{}
+void emojis()
+{}
+void contact_list()
+{
+}
+}
+class new_whatsapp: public old_whatsapp
+{
+public : void status()
+{}
+void emojis()  //overriding
+{
+//it will contain new emojis
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
