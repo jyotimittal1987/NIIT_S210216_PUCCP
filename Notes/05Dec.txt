@@ -1,0 +1,81 @@
+Dynamic Polymorphism:
+Virtual Keyword:
+Abstract class: 
+	Pure Virtual Function :Are the functions without any body :
+
+public : virtual void display()=0;
+
+- Any class containing one or more pure virtual function is known as abstract class.
+
+========================================================================
+class Parent
+{
+public : virtual void display()=0;
+void accept()
+{
+//body
+}
+
+}
+class Derived : public Parent
+{
+public:void display()
+{
+
+}
+}
+
+=================================================================
+Ambiguities in Multiple Inheritance:
+
+class A
+{
+public : void display()
+{}
+};
+class B
+{
+public : void display()
+{}
+};
+class C : public A, public B
+{
+
+}
+
+int main()
+{
+C c1;
+c1.display();
+}
+
+Resolve this ambiguity :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
