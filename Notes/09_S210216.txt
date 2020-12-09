@@ -1,0 +1,59 @@
+while Executing c++ Program, we are getting below Errors:
+1)Syntax Error : Syntax is not as per c++ rules. Eg : terminator missing, case sensitive
+2)Logical Error : Syntax is right but some issue in logic due to which o/p is not coming as per expectation.
+a=10
+b=2
+
+c=a/b=5
+
+c=b/a=0
+3)Runtime Error :
+- No issue in syntax, no issue in logic , but sometimes at runtime due to user input, application does not work properly and it may undergo abnormal termination.
+Such Error are known as Runtime Error.
+- Runtime Error are also known as Exceptions.
+- some functions may not work properly.
+- function may skip some part ad move to another function for execution.
+
+Handle Exception :If you have an idea like exception may occur in an application, we are supposed to handle it.
+- We will save the application from the abnormal termination.
+====================================================================
+To handle the exception, we have to use exception handlers
+- Try: Whatever code you think can generate an exception  , we will put that code in try block. If not exception occurs, try block wil execute but if exception occurs,try block will not execute further and it will pass control to catch block.
+-catch  : It handles the exception to save application from abnormal termination
+-throw  : To explicity invoke the exception.
+
+Eg : Divide by Zero Exception
+try
+{
+a=10
+b=2
+
+c=a/b =5
+
+b=0;
+c=a/b =10/0 : infinity : It will generate Exception
+}
+catch(Exception e)
+{
+cout<<"User defined message";
+}
+
+===========================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

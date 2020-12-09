@@ -1,0 +1,53 @@
+Calc obj;
+obj.display(); 
+- static Binding/ compile time polymorphism/Early binding
+-Dynamic Binding /Runtime polymorphism / Late Binding
+
+class Shape
+{
+public: virtual void area()
+{}
+}
+class Square : public Shape
+{
+public : void area() //overriding 
+{
+
+}
+}
+class Rectangle : public Shape
+{
+public : void area() //overriding 
+{
+
+}
+}
+int main()
+{
+Shape *s1;
+Square sq;
+s1=&sq;
+s1->area();
+
+}
+
+================================================================
+File IO : You have to write/read some content from the file that exists in the hard disk.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
