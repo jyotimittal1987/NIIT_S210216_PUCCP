@@ -1,0 +1,92 @@
+Arrays :
+-collection of elements of the same data type
+-elements are stored at contiguous memory location
+-elements are accessible through subscript
+-Memory will be allocated at compile time.
+-Static Data Structure
+-You cant increase or shrink the size of array element at run time.
+
+int arr[10];//40 bytes
+
+Linked List :
+-Dynamic Data Structure.
+-Size can be grow at runtime and if required, memory can be released at run time.
+-Elements can be at arbitrary memory location.
+=====================================================
+Types of Linked List:
+
+1)Single Linked List
+2)Doubly Linked List
+3)Circular Linked List
+
+========================================================
+Node :A Node is divided into 2 parts:
+First part of node contains data
+Second part of node contains address of next element.
+--NULL : There is no further element in linked list.
+
+============================================================
+1) Single Linked List:
+10 20 30 40 50 60
+
+class Node
+{
+int data;
+Node *next;
+}
+==========================================
+2) Doubly Linked List:
+- A node is divided into 3 parts :
+ a) Contain address of previous Node
+ b)Data
+ c) Contain address of next Node
+
+class Node
+{
+int data;
+Node *previous;
+Node *next;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
